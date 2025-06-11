@@ -27,7 +27,7 @@ const OnboardingLayout: React.FC<OnboardingLayoutProps> = ({
     <div className="relative h-screen w-screen flex flex-col items-center justify-between text-center overflow-hidden">
 
       {/* Overlay for readability */}
-      <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
+      <div className="absolute inset-0 bg-black opacity-100 z-10"></div>
 
       {/* Content */}
       <div className="relative z-20 flex flex-col items-center justify-between h-full p-6 text-white">
